@@ -23,7 +23,7 @@
     <ImageView
         android:id="@+id/ImageView"
         android:layout_width="30pt"
-        android:layout_height="11pt"
+        android:layout_height="9pt"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
@@ -33,9 +33,9 @@
 
     <ImageView
         android:id="@+id/textView"
-        android:layout_width="60pt"
-        android:layout_height="11pt"
-        android:layout_marginTop="38dp"
+        android:layout_width="40pt"
+        android:layout_height="8pt"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/ic_datisflex_text_logo"
@@ -100,7 +100,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:textStyle="normal"
-                android:text="Or registreer met je e-mail"
+                android:text="Of registreer met je e-mail"
                 android:textColor="#000000"/>
 
             <View
@@ -142,13 +142,14 @@
             <EditText
                 android:id="@+id/email_edt_text"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:textColor="@android:color/black"
-                android:inputType="textEmailAddress"
                 android:background="@drawable/borders"
-                android:hint="Enter your email here..." />
+                android:drawableRight="@drawable/ic_baseline_check_24"
+                android:hint="Enter your email here..."
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -177,9 +178,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/borders"
+                android:drawableRight="@drawable/ic_eye_open_icon"
                 android:hint="Enter your password here..."
                 android:inputType="textPassword"
-                android:textColor="@android:color/black"/>
+                android:textColor="@android:color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -204,10 +206,9 @@
                 android:layout_marginRight="30dp"
                 android:justificationMode="inter_word"
                 android:text="This text is just for testing purposes only. Not for any other purposes rather than testing."
-                android:textAlignment="gravity"
                 android:textColor="#000000"
-                android:textSize="14dp"
-                android:textStyle="normal" />
+                android:textSize="16dp"
+                android:fontFamily="@font/test"/>
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
