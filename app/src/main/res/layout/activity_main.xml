@@ -102,8 +102,9 @@
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:fontFamily="@font/pfd_cond_medium"
-                android:textSize="14dp"
+                android:fontFamily="@font/test"
+                android:textStyle="bold"
+                android:textSize="16dp"
                 android:text="Of registreer met je e-mail"
                 android:textColor="#000000"/>
 
@@ -195,23 +196,25 @@
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/ic_uncheck_icon"
                 />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="30dp"
                 android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/test"
+                android:textStyle="bold"
                 android:justificationMode="inter_word"
-                android:text="This text is just for testing purposes only. Not for any other purposes rather than testing."
+                android:text="@string/your_string_here"
                 android:textColor="#000000"
-                android:textSize="16dp"
-                android:fontFamily="@font/test"/>
+                android:textSize="16dp" />
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/ic_button_bg"
             android:fontFamily="@font/gilroy_extra_bold"
             android:gravity="center"
